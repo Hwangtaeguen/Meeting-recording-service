@@ -1,0 +1,263 @@
+
+.main {
+    display: flex;
+    border: 1px solid black;
+    
+  }
+  
+  .sidebar {
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 100vh;
+    background-color: #dbcca3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #dbcca3;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    border: 1px solid black;
+    width: 99%;
+    height: 20vh;
+    background-color: #dbcca3;
+    padding: 10px;
+    background-image: url("./img/Homeim.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+  }
+  
+  .main4 {
+    border: 1px solid black;
+    width: 100%;
+    background-color: #dbcca3;
+    padding: 20px;
+    background-image: url("./img/Homeim.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+  }
+
+  .papago {
+    margin-left: 20px;
+    margin-top:0%;
+    width: 130px;
+    background-color: #dbcca3;
+    background-image: url("./img/Home4.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+
+    
+    
+  }
+  
+  .main2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url("./img/Home2.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+    color: rgb(0, 0, 0);
+  }
+  
+  .main3 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .main5 {
+    width: 25%;
+    background-color: #dbcca3;
+    border: 1px solid black;
+    padding: 20px;
+    background-image: url("./img/Homeim.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+    color: rgb(0, 0, 0);
+  }
+
+  .main6 {
+    width: 50%;
+    background-color: #dbcca3;
+    border: 1px solid black;
+    padding: 20px;
+    background-image: url("./img/Homeim.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .h2h2 {
+    width: 50%;
+    background-color: #dbcca3;
+    border: 1px solid black;
+  }
+  
+  .papagomain {
+    width: 100%;
+    background-color: #dbcca3;
+    border: 1px solid black;
+    
+    
+  }
+  .papagomain2 {
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    background-color: #dbcca3;
+    border: 1px solid black;
+    background-image: url("./img/Home4.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+    
+    
+  }
+
+
+  .papagomain3 {
+    margin-top:0%;
+    width: 100%;
+    background-color: #5f9cc5;
+    background-image: url("./img/Home4.png");
+    background-repeat: no-repeat; /* 이미지 반복 여부 설정 */
+    background-size: cover; /* 이미지 크기 조절 옵션 */
+    
+  }
+  
+  .aa {
+    margin-top: 0%;
+    text-align: center;
+    
+  }
+  
+  .h31 {
+    margin-top: 2%;
+    text-align:center;
+  
+  }
+  
+  
+  
+  /* 화면 너비가 768px 이하일 때 스타일 적용 */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 100%;
+    }
+    .menu {
+      display: none;
+    }
+  }
+  
+  /* 화면 너비가 769px 이상일 때 스타일 적용 */
+  @media screen and (min-width: 769px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 960px;
+    }
+    .menu {
+      display: block;
+    }
+  }
+  
+
+  .scrollable-content {
+    overflow: auto;
+    max-height: 250px;
+    white-space: pre-wrap;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .scrollable-content2 {
+    margin-top: 20px;
+    overflow: auto;
+    max-height: 205px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .inputWidth {
+    width: 30px; 
+  }
+
+
+  .button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:0%;
+  }
+
+
+  .papagobutton {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:25%;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .button:active {
+    background-color: #3e8e41;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+
+  .button2 {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4d27a5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,87 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5e5f7;
+  }
+  
+  .login-form {
+    text-align: center;
+    background-color: #fdfdfdfd;
+    padding: 5%;
+    border-radius: 4px;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form label {
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+/* 로그인 버튼 스타일 */
+.login-form .login-button {
+    padding: 10px 20px; /* 내부 여백 지정 */
+    background-color: #007bff; /* 배경 색상 지정 */
+    color: #fff; /* 글자 색상 지정 */
+    border: none; /* 테두리 없음 */
+    border-radius: 4px; /* 테두리 둥글게 만들기 */
+    cursor: pointer; /* 마우스 포인터 스타일 변경 */
+    width: 270px;
+    margin-bottom: 20px;
+    /* 필요에 따라 추가적인 스타일을 지정해주세요 */
+  }
+  
+  /* 로그인 버튼 호버 스타일 */
+  .login-form .login-button:hover {
+    background-color: #0069d9; /* 호버 시 배경 색상 변경 */
+  }
+  
+  /* 로그인 버튼 포커스 스타일 */
+  .login-form .login-button:focus {
+    outline: none; /* 포커스 효과 제거 */
+  }
+  
+  /* 로그인 버튼 액티브 스타일 */
+  .login-form .login-button:active {
+    transform: translateY(1px); /* 클릭 시 약간 아래로 이동 */
+  }
+  
+  /* 회원가입 버튼 스타일 */
+  .login-form .register-button {
+    padding: 10px 20px; /* 내부 여백 지정 */
+    background-color: #28a745; /* 배경 색상 지정 */
+    color: #fff; /* 글자 색상 지정 */
+    border: none; /* 테두리 없음 */
+    border-radius: 4px; /* 테두리 둥글게 만들기 */
+    cursor: pointer; /* 마우스 포인터 스타일 변경 */
+  
+    /* 필요에 따라 추가적인 스타일을 지정해주세요 */
+  }
+  
+  /* 회원가입 버튼 호버 스타일 */
+  .login-form .register-button:hover {
+    background-color: #218838; /* 호버 시 배경 색상 변경 */
+  }
+  
+  /* 회원가입 버튼 포커스 스타일 */
+  .login-form .register-button:focus {
+    outline: none; /* 포커스 효과 제거 */
+  }
+  
+  /* 회원가입 버튼 액티브 스타일 */
+  .login-form .register-button:active {
+    transform: translateY(1px); /* 클릭 시 약간 아래로 이동 */
+  }
+  
